@@ -8,6 +8,10 @@ android {
     namespace 'com.example.practicadb_ashly'
     compileSdk 33
 
+buildFeatures{
+    viewBinding = true
+}
+
     defaultConfig {
         applicationId "com.example.practicadb_ashly"
         minSdk 24
